@@ -9,6 +9,9 @@ import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http
 })
  
 export class CrudService {
+  UpdateBookpdateBook(bookId: any, value: any) {
+      throw new Error('Method not implemented.');
+  }
 
   // Node/Express API URL
   REST_API: string = 'http://localhost:8000/api';
